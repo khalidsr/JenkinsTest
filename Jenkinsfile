@@ -6,7 +6,6 @@ pipeline {
         echo 'Build complited'
         retry(count: 3) {
           echo 'Print 3 time'
-          sh 'sdsdasdasd'
         }
 
       }
